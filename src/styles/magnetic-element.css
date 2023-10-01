@@ -1,0 +1,5 @@
+.magnetic-element {
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.1, 0.8, 0.4, 1);
+  cursor: pointer;
+}

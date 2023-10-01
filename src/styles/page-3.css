@@ -1,0 +1,37 @@
+.page-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: var(--padding);
+  margin-top: var(--margin-top);
+  gap: var(--gap-high);
+}
+
+.page-3-grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container > img {
+  height: 100%;
+  object-fit: cover;
+  animation: all cubic-bezier(1, 0.25, 0.2, 1);
+}
+
+.page-3-svg-div {
+  width: 100%;
+  height: 100%;
+}
+
+.page-3-svg-div > svg {
+  fill: var(--white);
+  fill-rule: evenodd;
+}

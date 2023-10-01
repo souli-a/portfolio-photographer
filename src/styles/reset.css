@@ -1,0 +1,94 @@
+@import url('./fonts.css');
+
+:root {
+  --white: #e8e8e8;
+  --black: #171717;
+  --margin-top: clamp(0.5rem, 8vw, 15.5rem);
+  --padding: clamp(1rem, 2vw, 2rem);
+  --gap-low: clamp(0.8rem, 2vw, 2rem);
+  --gap-mid: clamp(0.8rem, 3vw, 5rem);
+  --gap-high: clamp(2rem, 3vw, 5rem);
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+html,
+:root {
+  width: 100%;
+  height: 100%;
+  scrollbar-width: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  color: var(--white);
+  background-color: var(--black);
+  font-family: 'Clash Display';
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+img,
+picture,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+input,
+textarea,
+button,
+a {
+  all: unset;
+}
+
+input,
+button,
+textarea,
+select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+::selection,
+::-moz-selection,
+::-webkit-selection {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
