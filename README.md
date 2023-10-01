@@ -1,6 +1,6 @@
 # Portfolio template
 
-This is a portfolio template for photographers. Built with, with [`TypeScript`](https://www.typescriptlang.org), [`GSAP`](https://greensock.com/gsap) and [`Vite`](https://vitejs.dev).
+This is a portfolio template for photographers. Built with [`TypeScript`](https://www.typescriptlang.org), [`GSAP`](https://greensock.com/gsap) and [`Vite`](https://vitejs.dev).
 
 It uses the [`pnpm`](https://pnpm.io) package manager by default, but can also be used with [`npm`](https://www.npmjs.com) or [`yarn`](https://yarnpkg.com).
 
