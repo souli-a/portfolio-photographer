@@ -15,7 +15,7 @@ It uses the [`pnpm`](https://pnpm.io) package manager by default, but can also b
 Once this is installed you can run [`pnpm i`](https://pnpm.io/cli/install) in your project directory to install dependencies.
 
 ```bash
-cd portfolio-photographer/
+cd portfolio-photographer
 pnpm i
 ```
 
