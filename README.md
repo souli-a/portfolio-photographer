@@ -1,4 +1,4 @@
-# Portfolio template
+# portfolio-photographer
 
 This is a portfolio template for photographers. Built with [`TypeScript`](https://www.typescriptlang.org), [`HTML`](https://developer.mozilla.org/en-US/docs/Web/HTML), [`CSS`](https://developer.mozilla.org/en-US/docs/Web/CSS), [`GSAP`](https://greensock.com/gsap) and [`Vite`](https://vitejs.dev).
 
